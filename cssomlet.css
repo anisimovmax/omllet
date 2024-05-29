@@ -1,0 +1,104 @@
+*    {
+        box-sizing: border-box;
+}
+
+html {
+        font-family: "Outfit", sans-serif;
+        color: hsl(24, 5%, 18%);
+}
+
+body {
+        background-color: hsl(31, 49%, 86%);
+}
+
+main {
+        border-radius: 25px;
+        background-color: hsl(0, 0%, 100%);
+        margin-block: 96px;
+        margin-inline: auto;
+        padding: 36px;
+        max-width: 740px;
+}
+
+img {
+        border-radius: 25px;
+        width: 100%;
+}
+
+h2 {
+        font-family: "Young Serif", serif;
+        color: hsl(14, 45%, 36%);
+}
+
+.prep-time {
+        background-color: hsl(330, 100%, 98%);
+        padding: 1rem;
+        border-radius: 1rem;
+}
+
+.prep-time h2 {
+        margin-top: 0;
+        color: hsl(332, 51%, 32%);
+        font-size: 20px;
+        font-family: inherit;
+}
+
+.prep-time-points {
+        color: hsl(30, 10%, 34%);
+}
+
+h1 {
+        font-size: 47px;
+        font-family: "Young Serif", serif;
+        margin-bottom: auto;
+}
+
+table {
+        width: 100%;
+}
+
+td {
+        border-bottom: 1px solid hsl(30, 18%, 87%);
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+}
+
+.prep-time-points li::marker {
+        color: hsl(332, 51%, 32%);
+}
+
+tr:last-child td {
+        border-bottom: none;
+}
+
+td:nth-child(2n) {
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+}
+
+.prep-time ul {
+        list-style: square;
+}
+
+li::marker {
+        color: hsl(14, 45%, 36%);
+        font-weight: bold;
+}
+
+ul {
+        list-style: square;
+}
+
+ul li::marker {
+        font-size: 0.5rem;
+}
+
+li { 
+        padding-left: 1rem;
+        margin-block: 8px;
+}
+
+hr {
+        border: 0.5px solid hsl(30, 18%, 87%);
+}
